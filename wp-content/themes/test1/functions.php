@@ -16,6 +16,8 @@ function test_media() {
 }
 function test_menu(){
     register_nav_menu("top", "Верхнее");
+    register_nav_menu("right-top", "Sidebar Menu");
+    register_nav_menu("right-bottom", "Sponsors");
     add_theme_support( 'post-thumbnails');
     add_theme_support( 'title-tag');
 }
