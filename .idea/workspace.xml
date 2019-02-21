@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c911d595-ab20-4d68-b0db-fb3502787c2e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test1/inc/test-widget-recent-posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test1/single-content/content-aside.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test1/single-content/content-gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test1/single-content/content-image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test1/single-content/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test1/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test1/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test1/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test1/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test1/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c911d595-ab20-4d68-b0db-fb3502787c2e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +32,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test1/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+            <state relative-caret-position="-7150">
+              <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -250,6 +240,13 @@
               <item name="test1" type="462c0819:PsiDirectoryNode" />
               <item name="single-content" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wplavr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wplavr" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentyseventeen" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -301,16 +298,15 @@
       <workItem from="1548241482027" duration="1851000" />
       <workItem from="1550145956114" duration="25799000" />
       <workItem from="1550480336815" duration="13107000" />
-      <workItem from="1550506459835" duration="36210000" />
+      <workItem from="1550506459835" duration="37115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76967000" />
+    <option name="totallyTimeSpent" value="77872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -318,9 +314,9 @@
       <window_info anchor="bottom" id="File Transfer" order="8" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.025433525" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47630057" />
       <window_info id="Remote Host" order="3" weight="0.24813233" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -625,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test1/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+        <state relative-caret-position="-7150">
+          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
         </state>
       </provider>
     </entry>
