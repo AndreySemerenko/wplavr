@@ -38,7 +38,7 @@ function test_recent($atts)
     }
 
     wp_reset_postdata();
-    return $str . '--- заголовки записей';
+    return $str . '--- заголовки записей'; 
 }
 
 
