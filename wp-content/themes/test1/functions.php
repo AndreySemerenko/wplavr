@@ -48,8 +48,6 @@ function test_recent($atts)
         wp_enqueue_style('slider', get_template_directory_uri() . '/assets/css/coin-slider.css');
         wp_enqueue_script('script1', get_template_directory_uri() . '/assets/js/cufon-yui.js', [], null, true);
         wp_enqueue_script('script2', get_template_directory_uri() . '/assets/js/cufon-times.js', [], null, true);
-        wp_enqueue_script('script3', get_template_directory_uri() . '/assets/js/jquery-1.4.2.min.js', [], null, true);
-        wp_enqueue_script('script4', get_template_directory_uri() . '/assets/js/script.js', ['jquery'], null, true);
         wp_enqueue_script('script5', get_template_directory_uri() . '/assets/js/coin-slider.min.js', [], null, true);
     }
 
@@ -58,9 +56,7 @@ function test_recent($atts)
         register_nav_menu("top", "Верхнее");
         register_nav_menu("right-top", "Sidebar Menu");
         register_nav_menu("right-bottom", "Sponsors");
-        add_theme_support('post-thumbnails');
-        add_theme_support('title-tag');
-        add_theme_support( 'post-formats', array('aside', 'gallery', 'image'));
+
     }
 
     function test_widgets()
