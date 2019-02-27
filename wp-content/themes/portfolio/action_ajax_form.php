@@ -1,18 +1,43 @@
 <?
-if((isset($_POST['email'])&&$_POST['email']!="")){ //Проверка отправилось ли наше поля name и не пустые ли они
-    $to = $_POST['email']; //Почта получателя, через запятую можно указать сколько угодно адресов
-    $subject = 'Привет кентюрик'; //Загаловок сообщения
-    $message = '
-                <html>
-                    <head>
-                        <title>'.$subject.'</title>
-                    </head>
-                    <body>
-                        <p>Эндрю</p>
-                        <p>HY friend</p>                        
-                    </body>
-                </html>'; //Текст нащего сообщения можно использовать HTML теги
-    $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-    $headers .= "From: Отправитель <semerenko.and@yandex.ua>\r\n"; //Наименование и почта отправителя
-    mail($to, $subject, $message, $headers) && die('error!'); //Отправка письма с помощью функции mail
+echo $_POST['email'];die;
+require_once('SMTP.php');
+require_once('PHPMailer.php');
+if ((isset($_POST['email']) && $_POST['email'] != "")) {
+    $email = $_POST['email'];
+
+} else {
+    echo "1";
+    die;
+}
+$name = 'andrew';
+$number = 'voker';
+
+// Настройки
+$mail = new PHPMailer;
+$mail->isSMTP();
+$mail->Host = 'smtp.gmail.com';
+$mail->SMTPDebug = 0;
+$mail->SMTPAuth = true;
+$mail->Priority = 3;
+$mail->CharSet = 'UTF-8';
+$mail->Encoding = '8bit';
+$mail->Username = 'semerenko.and@gmail.com';
+$mail->Password = 'nurivu1111121234'; // Ваш пароль
+$mail->SMTPSecure = 'ssl';
+$mail->Port = "465";
+$mail->setFrom('semerenko.and@gmail.com'); // Ваш Email
+$mail->addAddress($email); // Email получателя
+// Прикрепление файлов
+
+
+// Письмо
+$mail->isHTML(true);
+$mail->Subject = 'Письмо бро'; // Заголовок письма
+$mail->Body = 'Имя' . $name . 'Телефон ' . $number . 'Почта ' . $email; // Текст письма
+// Результат
+if (!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'ok';
 }

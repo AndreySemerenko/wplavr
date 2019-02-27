@@ -209,7 +209,6 @@
         </div>
 
 
-
     </section>
     <section class="meet">
         <div class="wrapper">
@@ -235,11 +234,14 @@
                                     src="<?php echo get_template_directory_uri() . "/assets/images/download.jpeg" ?>"
                                     alt=""></div>
                         <div class="meet-images_item"><img
-                                    src="<?php echo get_template_directory_uri() . "/assets/images/3.png" ?>" alt=""></div>
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/3.png" ?>" alt="">
+                        </div>
                         <div class="meet-images_item"><img
-                                    src="<?php echo get_template_directory_uri() . "/assets/images/2.png" ?>" alt=""></div>
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/2.png" ?>" alt="">
+                        </div>
                         <div class="meet-images_item"><img
-                                    src="<?php echo get_template_directory_uri() . "/assets/images/5.jpg" ?>" alt=""></div>
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/5.jpg" ?>" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -257,9 +259,51 @@
         </div>
 
     </section>
+    <section class="get meet">
+        <div class="wrapper">
+            <h2 class="get-title">get in touch</h2>
+            <p class="get-descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
+                incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis
+                cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            <div class="meet-descr-bottom"></div>
+            <div class="contact-form-footer">
+                <div class="contact-form-block">
+                    <form id="contact-form-footer" method="post" action="">
+                        <div class="block-name">
+                            <input name="name" type="text" class="name-item" placeholder="Name">
+                            <input name="email" type="text" class="name-item" placeholder="Your Mail">
+                        </div>
+
+                        <textarea form="contact-form-footer" type="text" class="text-item" name="message" placeholder="Type your message"></textarea>
+                        <input type="button" class="button-item" value="Send message">
+                    </form>
+                </div>
+                <div class="contact-info_block">
+                    <h2 class="info_block-title">contact info</h2>
+                    <p class="info_block-descr">Jalalabad 24 / A, Ambaarkhana, Sylhet,
+                        Bangladesh</p>
+                    <p class="info_block-descr">redwan@deviserweb.com</p>
+                    <p class="info_block-descr">(+88) 017 617 46373</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 </main>
-<footer class="footer"></footer>
+<footer class="footer">
+    <div class="wrapper">
+        <p class="copy">
+            © Copyright @Junaed 2016, All rights reserved.
+        </p>
+        <ul class="icons-footer">
+            <li><a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/twitter.png" ?>" alt=""></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/linkedIn.png" ?>" alt=""></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/google.png" ?>" alt=""></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/facebook.png" ?>" alt=""></a></li>
+        </ul>
+    </div>
+</footer>
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -500,3 +500,126 @@ display: flex;
     outline: none !important;
     cursor: pointer;
 }
+.get-title{
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.get-descr{
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 50%;
+}
+section.get .meet-descr-bottom{
+    margin-bottom: 75px;
+}
+.contact-form-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.contact-form-block{
+    width: 50%;
+}
+.block-name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.name-item {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.1);
+    border:none;
+    border-radius: 5px;
+    padding: 23px 0 23px 40px;
+    width: 47%;
+    outline-style: none;
+    box-sizing: border-box;
+}
+.text-item{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.1);
+    border:none;
+    border-radius: 5px;
+    outline-style: none;
+    padding: 30px 0 200px 45px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    resize: none;
+}
+.button-item{
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ff3b3b;
+    outline-style: none;
+    border:none;
+    padding: 30px 0;
+}
+.contact-info_block{
+    width: 43%;
+    background-color: #2d2d2d;
+    box-sizing: border-box;
+    padding: 145px 0 145px 79px;
+}
+.info_block-title{
+    margin-top: 0;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.info_block-descr{
+    max-width: 70%;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer.footer{
+    background-color: #313030;
+    padding: 30px 0 20px 0;
+}
+footer.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    color: #b8b8b8;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+}
+.icons-footer{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
