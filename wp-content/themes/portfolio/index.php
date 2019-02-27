@@ -42,9 +42,9 @@
 
 </header>
 <main class="content">
-    <div class="wrapper">
-        <section class="content-item provide">
 
+    <section class="content-item provide">
+        <div class="wrapper">
             <article class="content-item_article_second">
                 <h2 class="item-article-title_second">do you know we can
                     provide for you ?</h2>
@@ -93,8 +93,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="features-products">
+        </div>
+
+    </section>
+    <section class="features-products">
+        <div class="wrapper">
             <h2 class="features-title">feature products</h2>
             <p class="features-descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor
                 incididunt ut labore et.</p>
@@ -203,19 +206,24 @@
                                 src="<?php echo get_template_directory_uri() . "/assets/images/4.jpg" ?>" alt=""></div>
                 </div>
             </div>
+        </div>
 
 
-        </section>
-        <section class="meet">
+
+    </section>
+    <section class="meet">
+        <div class="wrapper">
             <h2 class="meet-title">Meet our team</h2>
             <p class="meet-descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor
                 incididut labore Ui / Ux , print template.</p>
             <div class="meet-descr-bottom"></div>
             <div class="meet-second">
-                <div class="meet-img"><img src="<?php echo get_template_directory_uri() . "/assets/images/petya.jpg" ?>" alt=""></div>
+                <div class="meet-img"><img src="<?php echo get_template_directory_uri() . "/assets/images/petya.jpg" ?>"
+                                           alt=""></div>
                 <div class="meet-author_block">
                     <h2 class="meet-author_name">mark waugh</h2>
-                    <p class="meet-author_descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+                    <p class="meet-author_descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing
+                        eiusmod tempor incididut labore Ui / Ux , print template.</p>
                     <div class="meet-author_social">
                         <a href="#" class="meet-author_social_item">Facebook</a>
                         <a href="#" class="meet-author_social_item">Dribble</a>
@@ -223,15 +231,33 @@
                         <a href="#" class="meet-author_social_item">Twiter</a>
                     </div>
                     <div class="meet-images">
-                        <div class="meet-images_item"><img src="<?php echo get_template_directory_uri() . "/assets/images/download.jpeg" ?>" alt=""></div>
-                        <div class="meet-images_item"><img src="<?php echo get_template_directory_uri() . "/assets/images/3.png" ?>" alt=""></div>
-                        <div class="meet-images_item"><img src="<?php echo get_template_directory_uri() . "/assets/images/2.png" ?>" alt=""></div>
-                        <div class="meet-images_item"><img src="<?php echo get_template_directory_uri() . "/assets/images/5.jpg" ?>" alt=""></div>
+                        <div class="meet-images_item"><img
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/download.jpeg" ?>"
+                                    alt=""></div>
+                        <div class="meet-images_item"><img
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/3.png" ?>" alt=""></div>
+                        <div class="meet-images_item"><img
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/2.png" ?>" alt=""></div>
+                        <div class="meet-images_item"><img
+                                    src="<?php echo get_template_directory_uri() . "/assets/images/5.jpg" ?>" alt=""></div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+
+    </section>
+    <section class="subscribe">
+        <div class="wrapper">
+            <h2 class="subscribe-title">Design tips, tricks, and freebies. Delivered weekly.</h2>
+            <p class="subscribe-descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+            <form method="post" id="subscribe" action="">
+                <input class="email-form" type="text" name="email" placeholder="Email Address..."/>
+                <input class="button-email" type="button" id="btn" value="subscribe"/>
+            </form>
+        </div>
+
+    </section>
+
 </main>
 <footer class="footer"></footer>
 <?php wp_footer(); ?>

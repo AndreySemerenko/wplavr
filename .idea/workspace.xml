@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c911d595-ab20-4d68-b0db-fb3502787c2e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/portfolio/action_ajax_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/action_ajax_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/portfolio/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/portfolio/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test1/assets/js/jquery-1.4.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test1/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test1/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test1/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,31 +21,44 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="415" column="18" selection-start-line="415" selection-start-column="18" selection-end-line="415" selection-end-column="18" />
+            <state relative-caret-position="12714">
+              <caret line="489" column="13" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/ajax.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action_ajax_form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/action_ajax_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="233" column="10" lean-forward="true" selection-start-line="233" selection-start-column="10" selection-end-line="233" selection-end-column="10" />
-              <folding>
-                <element signature="n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="6604">
+              <caret line="254" column="40" selection-start-line="254" selection-start-column="30" selection-end-line="254" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -80,6 +86,8 @@
       <find>current-menu-item</find>
       <find>cu</find>
       <find>img</find>
+      <find>content-item</find>
+      <find>var</find>
       <find>all</find>
     </findStrings>
     <replaceStrings>
@@ -90,6 +98,7 @@
       <replace>assets</replace>
       <replace>src=&quot;assets/</replace>
       <replace>current-menu-item</replace>
+      <replace>let</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -132,10 +141,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/jquery.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/test1/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/jquery-1.4.2.min.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/portfolio/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/portfolio/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/ajax.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/portfolio/action_ajax_form.php" />
       </list>
     </option>
   </component>
@@ -201,39 +212,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wplavr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wplavr" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wplavr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wplavr" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wplavr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wplavr" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wplavr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wplavr" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -302,25 +280,25 @@
       <workItem from="1550851828111" duration="299000" />
       <workItem from="1550854663673" duration="1181000" />
       <workItem from="1551086079554" duration="18329000" />
-      <workItem from="1551168250640" duration="15994000" />
+      <workItem from="1551168250640" duration="25228000" />
+      <workItem from="1551258051612" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116216000" />
+    <option name="totallyTimeSpent" value="126058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19190751" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5595376" />
       <window_info id="Remote Host" order="3" weight="0.24813233" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14621131" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14781217" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,18 +323,18 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32947975" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38728324" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32947975" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32947975" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,13 +370,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test1/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -668,16 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12324">
           <caret line="1" column="86841" selection-start-line="1" selection-start-column="86841" selection-end-line="1" selection-end-column="86841" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test1/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -688,38 +649,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test1/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="620">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="415" column="18" selection-start-line="415" selection-start-column="18" selection-end-line="415" selection-end-column="18" />
+        <state relative-caret-position="12714">
+          <caret line="489" column="13" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="233" column="10" lean-forward="true" selection-start-line="233" selection-start-column="10" selection-end-line="233" selection-end-column="10" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="6604">
+          <caret line="254" column="40" selection-start-line="254" selection-start-column="30" selection-end-line="254" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/assets/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/action_ajax_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

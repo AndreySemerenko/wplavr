@@ -129,7 +129,7 @@ a {
     display: inline-block;
 }
 
-.provide {
+.provide .wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -448,4 +448,55 @@ display: flex;
 .meet-images_item {
     width: calc(25% - 20px);
     margin: 0 10px;
+}
+.subscribe{
+    padding: 140px 0;
+    background-color: #f5f0dd;
+}
+.subscribe-title{
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    margin: 30px auto;
+    text-align: center;
+}
+.subscribe-descr{
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px auto ;
+    text-align: center;
+}
+#subscribe{
+    text-align: center;
+}
+.email-form{
+    padding:25px 0 25px 50px;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+    margin: 0 20px 0 0;
+    opacity: 0.7;
+    color: #2c2c2c;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    outline: none !important;
+}
+.button-email{
+    background-color: #ff2d2d;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 23px 30px 23px 30px;
+    outline: none !important;
+    cursor: pointer;
 }
